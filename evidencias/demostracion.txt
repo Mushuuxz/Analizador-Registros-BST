@@ -1,0 +1,96 @@
+=== DEMOSTRACION AUTOMATICA DEL PROYECTO BST ===
+Registros insertados: 15
+
+--- REGISTROS CRONOLOGICOS ---
+20261110081000 (10/11/2026 08:10:00) | Usuario: Ana | Accion: Visita | Pagina: Inicio | Duracion: 60 s
+20261111120500 (11/11/2026 12:05:00) | Usuario: Carlos | Accion: Visita | Pagina: Productos | Duracion: 120 s
+20261112090500 (12/11/2026 09:05:00) | Usuario: Ana | Accion: Compra | Pagina: Carrito | Duracion: 180 s
+20261113103000 (13/11/2026 10:30:00) | Usuario: Michael | Accion: Login | Pagina: Inicio | Duracion: 45 s
+20261113104500 (13/11/2026 10:45:00) | Usuario: Michael | Accion: Visita | Pagina: Productos | Duracion: 75 s
+20261113111000 (13/11/2026 11:10:00) | Usuario: Valeria | Accion: Visita | Pagina: Inicio | Duracion: 32 s
+20261114100000 (14/11/2026 10:00:00) | Usuario: Ana | Accion: Login | Pagina: Inicio | Duracion: 40 s
+20261114101500 (14/11/2026 10:15:00) | Usuario: Carlos | Accion: Compra | Pagina: Carrito | Duracion: 240 s
+20261114103000 (14/11/2026 10:30:00) | Usuario: Michael | Accion: Visita | Pagina: Productos | Duracion: 150 s
+20261115100500 (15/11/2026 10:05:00) | Usuario: Valeria | Accion: Visita | Pagina: Ofertas | Duracion: 85 s
+20261115102000 (15/11/2026 10:20:00) | Usuario: Ana | Accion: Visita | Pagina: Productos | Duracion: 95 s
+20261115110000 (15/11/2026 11:00:00) | Usuario: Michael | Accion: Compra | Pagina: Carrito | Duracion: 200 s
+20261116093000 (16/11/2026 09:30:00) | Usuario: Ana | Accion: Compra | Pagina: Carrito | Duracion: 180 s
+20261116100000 (16/11/2026 10:00:00) | Usuario: Michael | Accion: Login | Pagina: Inicio | Duracion: 45 s
+20261116103000 (16/11/2026 10:30:00) | Usuario: Carlos | Accion: Visita | Pagina: Productos | Duracion: 120 s
+Total encontrado: 15
+
+--- BUSQUEDA EXACTA ---
+20261116100000 (16/11/2026 10:00:00) | Usuario: Michael | Accion: Login | Pagina: Inicio | Duracion: 45 s
+Total encontrado: 1
+
+--- BUSQUEDA POR RANGO ---
+20261116093000 (16/11/2026 09:30:00) | Usuario: Ana | Accion: Compra | Pagina: Carrito | Duracion: 180 s
+20261116100000 (16/11/2026 10:00:00) | Usuario: Michael | Accion: Login | Pagina: Inicio | Duracion: 45 s
+20261116103000 (16/11/2026 10:30:00) | Usuario: Carlos | Accion: Visita | Pagina: Productos | Duracion: 120 s
+Total encontrado: 3
+
+--- BUSQUEDA POR USUARIO ---
+20261113103000 (13/11/2026 10:30:00) | Usuario: Michael | Accion: Login | Pagina: Inicio | Duracion: 45 s
+20261113104500 (13/11/2026 10:45:00) | Usuario: Michael | Accion: Visita | Pagina: Productos | Duracion: 75 s
+20261114103000 (14/11/2026 10:30:00) | Usuario: Michael | Accion: Visita | Pagina: Productos | Duracion: 150 s
+20261115110000 (15/11/2026 11:00:00) | Usuario: Michael | Accion: Compra | Pagina: Carrito | Duracion: 200 s
+20261116100000 (16/11/2026 10:00:00) | Usuario: Michael | Accion: Login | Pagina: Inicio | Duracion: 45 s
+Total encontrado: 5
+
+--- BUSQUEDA POR PAGINA ---
+20261111120500 (11/11/2026 12:05:00) | Usuario: Carlos | Accion: Visita | Pagina: Productos | Duracion: 120 s
+20261113104500 (13/11/2026 10:45:00) | Usuario: Michael | Accion: Visita | Pagina: Productos | Duracion: 75 s
+20261114103000 (14/11/2026 10:30:00) | Usuario: Michael | Accion: Visita | Pagina: Productos | Duracion: 150 s
+20261115102000 (15/11/2026 10:20:00) | Usuario: Ana | Accion: Visita | Pagina: Productos | Duracion: 95 s
+20261116103000 (16/11/2026 10:30:00) | Usuario: Carlos | Accion: Visita | Pagina: Productos | Duracion: 120 s
+Total encontrado: 5
+
+===== ESTADISTICAS GENERALES =====
+Total de registros: 15
+Duracion promedio: 111.13 segundos
+Usuario mas activo: Ana (5 accesos)
+
+Accesos por usuario:
+  Ana: 5
+  Michael: 5
+  Carlos: 3
+  Valeria: 2
+
+Accesos por pagina:
+  Inicio: 5
+  Productos: 5
+  Carrito: 4
+  Ofertas: 1
+
+===== ACTIVIDAD DE ANA =====
+20261110081000 (10/11/2026 08:10:00) | Usuario: Ana | Accion: Visita | Pagina: Inicio | Duracion: 60 s
+20261112090500 (12/11/2026 09:05:00) | Usuario: Ana | Accion: Compra | Pagina: Carrito | Duracion: 180 s
+20261114100000 (14/11/2026 10:00:00) | Usuario: Ana | Accion: Login | Pagina: Inicio | Duracion: 40 s
+20261115102000 (15/11/2026 10:20:00) | Usuario: Ana | Accion: Visita | Pagina: Productos | Duracion: 95 s
+20261116093000 (16/11/2026 09:30:00) | Usuario: Ana | Accion: Compra | Pagina: Carrito | Duracion: 180 s
+Total encontrado: 5
+Duracion total: 555 segundos
+Duracion promedio: 111.00 segundos
+Paginas visitadas:
+  Carrito: 2
+  Inicio: 2
+  Productos: 1
+
+===== PAGINAS MAS VISITADAS =====
+1. Inicio: 5 accesos
+2. Productos: 5 accesos
+3. Carrito: 4 accesos
+4. Ofertas: 1 accesos
+
+===== HORARIOS PICO =====
+10:00 - 10:59 -> 9 accesos
+09:00 - 09:59 -> 2 accesos
+11:00 - 11:59 -> 2 accesos
+08:00 - 08:59 -> 1 accesos
+12:00 - 12:59 -> 1 accesos
+Hora(s) pico: 10:00 (9 accesos)
+
+--- ELIMINACION DE ANTIGUOS ---
+Eliminados: 6
+Registros restantes: 9
+=== FIN DE LA DEMOSTRACION ===

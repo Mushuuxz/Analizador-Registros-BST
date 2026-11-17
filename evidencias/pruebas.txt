@@ -1,0 +1,46 @@
+test_01_insercion_y_recorrido_cronologico (test_bst.PruebasBST.test_01_insercion_y_recorrido_cronologico) ... ok
+test_02_fecha_duplicada (test_bst.PruebasBST.test_02_fecha_duplicada) ... ok
+test_03_busqueda_exacta (test_bst.PruebasBST.test_03_busqueda_exacta) ... ok
+test_04_fecha_inexistente (test_bst.PruebasBST.test_04_fecha_inexistente) ... ok
+test_05_fecha_formato_invalido (test_bst.PruebasBST.test_05_fecha_formato_invalido) ... ok
+test_06_fecha_imposible (test_bst.PruebasBST.test_06_fecha_imposible) ... ok
+test_07_duracion_negativa (test_bst.PruebasBST.test_07_duracion_negativa) ... ok
+test_08_texto_vacio (test_bst.PruebasBST.test_08_texto_vacio) ... ok
+test_09_busqueda_por_rango_inclusivo (test_bst.PruebasBST.test_09_busqueda_por_rango_inclusivo) ... ok
+test_10_rango_vacio (test_bst.PruebasBST.test_10_rango_vacio) ... ok
+test_11_rango_invertido (test_bst.PruebasBST.test_11_rango_invertido) ... ok
+test_12_busqueda_usuario_sin_mayusculas (test_bst.PruebasBST.test_12_busqueda_usuario_sin_mayusculas) ... ok
+test_13_busqueda_pagina_sin_mayusculas (test_bst.PruebasBST.test_13_busqueda_pagina_sin_mayusculas) ... ok
+test_14_eliminar_hoja (test_bst.PruebasBST.test_14_eliminar_hoja) ... ok
+test_15_eliminar_nodo_con_un_hijo (test_bst.PruebasBST.test_15_eliminar_nodo_con_un_hijo) ... ok
+test_16_eliminar_raiz_con_dos_hijos (test_bst.PruebasBST.test_16_eliminar_raiz_con_dos_hijos) ... ok
+test_17_eliminar_inexistente (test_bst.PruebasBST.test_17_eliminar_inexistente) ... ok
+test_18_eliminar_antiguos_con_limite_estricto (test_bst.PruebasBST.test_18_eliminar_antiguos_con_limite_estricto) ... ok
+test_19_eliminar_antiguos_en_cambio_de_mes (test_bst.PruebasBST.test_19_eliminar_antiguos_en_cambio_de_mes) ... ok
+test_20_eliminar_antiguos_sin_coincidencias (test_bst.PruebasBST.test_20_eliminar_antiguos_sin_coincidencias) ... ok
+test_21_dias_negativos (test_bst.PruebasBST.test_21_dias_negativos) ... ok
+test_22_contar_registros (test_bst.PruebasBST.test_22_contar_registros) ... ok
+test_23_accesos_por_usuario (test_bst.PruebasBST.test_23_accesos_por_usuario) ... ok
+test_24_accesos_por_pagina (test_bst.PruebasBST.test_24_accesos_por_pagina) ... ok
+test_25_duracion_promedio (test_bst.PruebasBST.test_25_duracion_promedio) ... ok
+test_26_usuario_mas_activo (test_bst.PruebasBST.test_26_usuario_mas_activo) ... ok
+test_27_paginas_mas_visitadas (test_bst.PruebasBST.test_27_paginas_mas_visitadas) ... ok
+test_28_horarios_pico (test_bst.PruebasBST.test_28_horarios_pico) ... ok
+test_29_reporte_usuario (test_bst.PruebasBST.test_29_reporte_usuario) ... ok
+test_30_arbol_vacio (test_bst.PruebasBST.test_30_arbol_vacio) ... ok
+test_31_carga_ejemplo_idempotente (test_bst.PruebasBST.test_31_carga_ejemplo_idempotente) ... ok
+test_32_eliminacion_total_de_antiguos (test_bst.PruebasBST.test_32_eliminacion_total_de_antiguos) ... ok
+test_33_campo_accion_conservado_al_borrar_raiz (test_bst.PruebasBST.test_33_campo_accion_conservado_al_borrar_raiz) ... ok
+test_34_corte_en_anio_bisiesto (test_bst.PruebasBST.test_34_corte_en_anio_bisiesto) ... ok
+test_35_menu_carga_y_listado (test_integracion.PruebasIntegracion.test_35_menu_carga_y_listado) ... ok
+test_36_menu_rechaza_opcion_desconocida (test_integracion.PruebasIntegracion.test_36_menu_rechaza_opcion_desconocida) ... ok
+test_37_menu_busqueda_y_eliminacion (test_integracion.PruebasIntegracion.test_37_menu_busqueda_y_eliminacion) ... ok
+test_38_demostraciones_coinciden (test_integracion.PruebasIntegracion.test_38_demostraciones_coinciden) ... ok
+test_39_validacion_de_argumentos (test_integracion.PruebasIntegracion.test_39_validacion_de_argumentos) ... ok
+test_40_invariantes_con_borrado_en_orden_aleatorio (test_integracion.PruebasIntegracion.test_40_invariantes_con_borrado_en_orden_aleatorio)
+Comprueba que cada eliminacion conserva el orden del BST. ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 4.233s
+
+OK
